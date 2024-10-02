@@ -7,22 +7,22 @@ console.log(x);
 console.log(x[2]);
 console.log(x[5])
 
-///// push -->  add value at end
+///// push -->  Add values at the end
 
 x.push("kiran","meet")
 console.log(x)
 
-///// pop --> delete value from last
+///// pop --> Remove the last value
 
 x.pop()
 console.log(x)
 
-///// shift --> delete first value and shift the value 
+///// shift --> Remove the first value and shift the array
 
 x.shift()
 console.log(x)
 
-///// unshift --> add value at starting 
+///// unshift --> Add values at the beginning
 x.unshift("hi")
 x.unshift(5)
 console.log(x)
