@@ -1,13 +1,11 @@
- ///// object is a collection of key &   and keys must  be unique
+ ///// object is a collection of key &  and keys must  be unique
 
 
  let obj={
     name:"kiran",
     class:12,
     course:"javascript"
-
  }
-
  console.log(obj)
  console.log(obj.name)
  console.log(obj.class)
