@@ -1,5 +1,4 @@
- ///// object is a collection of key &  and keys must  be unique
-
+ ///// object is a collection of key &  and keys must  be unique /////
 
  let obj={
     name:"kiran",
