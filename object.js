@@ -15,11 +15,9 @@
  console.log(obj);
 
  //// to delete a key /////
-
  delete obj.regno 
  console.log(obj);
 
  //// to replace ////
-
  obj.course="javascript"
  console.log(obj);
