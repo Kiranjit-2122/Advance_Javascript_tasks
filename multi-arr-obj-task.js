@@ -1,3 +1,4 @@
+////////  1st solution   ////////
 let songs=[]
 songs.push({song_name:"YDG", singer:"karanaujla", language:"punjabi"})
 songs.push({song_name:"295", singer:"sidhumoosevala", language:"punjabi"})
@@ -46,7 +47,7 @@ let fooditems={
 console.log(fooditems.veg.c);
 
 
-///// 4th solution 
+///// 4th solution /////
 let i_am_array=[]
 for(var i=1;i<=20;i++){
     i_am_array.push(i)
@@ -68,7 +69,7 @@ console.log(teen_guna);
  console.log("type of i_am_array is ", typeof[i_am_array]);
 
 
-////5th solution
+///// 5th solution /////
 let array_forty=[]
 for ( var i=1;i<=40;i++){
     array_forty.push(i)
