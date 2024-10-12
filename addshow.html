@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Add Names :  <input id="id1">
+    <button onclick="add()">Add</button>
+    <br>
+    <br>
+    <button onclick="show()">Show</button>
+    <br>
+    <br>
+    Name Entered : <select  id="selectid"></select>
+    <option value=""  select disabled>Select</option>
+    
+    <script>
+        let names=[]
+        function add(){
+            let x=document.getElementById("id1").value
+            names.push(x)
+            console.log(names);
+        }
+
+        function show(){
+            for(i=0;i<names.length;i++){
+                document.getElementById("selectid").innerHTML+="<option value='' >"+names[i]+"</option>"
+            }
+        }
+    </script>
+</body>
+</html>
