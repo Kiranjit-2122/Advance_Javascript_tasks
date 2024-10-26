@@ -31,7 +31,6 @@ let name= [
 ]
 
 //////// 3rd solution    /////////////
-
 let fooditems={
     veg : {
         w:"wheat",
