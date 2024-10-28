@@ -15,7 +15,6 @@
     <br>
     Name Entered : <select  id="selectid"></select>
     <option value=""  select disabled>Select</option>
-    
     <script>
         let names=[]
         function add(){
@@ -23,7 +22,6 @@
             names.push(x)
             console.log(names);
         }
-
         function show(){
             for(i=0;i<names.length;i++){
                 document.getElementById("selectid").innerHTML+="<option value='' >"+names[i]+"</option>"
